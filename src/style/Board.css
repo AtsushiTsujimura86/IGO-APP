@@ -1,0 +1,32 @@
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(9, 10px); /* ここが肝！ */
+    gap: 30px;
+    background-color: #edab4e;
+    padding: 10px;
+    border:gray solid 3px;
+} 
+
+.dot{
+    width:10px;
+    height:10px;
+    padding: 0%;
+    border-radius:50%;
+    background-color:gray;
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+
+.dot.black{
+    background-color: black;
+    transform: scale(2);
+}
+
+.dot.white{
+    background-color: white;
+    transform: scale(2);
+}
+
+

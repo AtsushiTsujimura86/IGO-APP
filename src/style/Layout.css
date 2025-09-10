@@ -1,0 +1,15 @@
+/* main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 50px
+} */
+
+.board{
+	width: fit-content;
+}
+
+.switch{
+
+}
