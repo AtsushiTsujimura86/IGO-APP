@@ -6,6 +6,16 @@
     gap: 50px
 } */
 
+.main{
+    background-image: url("../images/tatami.webp");
+    width: 600px;
+    height: 600px;
+    background-size: cover;        /* 画像を要素にフィット */
+    background-position: center;   /* 中央寄せ */
+    background-repeat: no-repeat;  /* 繰り返さない */
+    border: 2px solid #555;
+}
+
 .board{
 	width: fit-content;
 }
